@@ -7,11 +7,10 @@ const Header = () => {
   return (
     <>
         <div className='bg-slate-700 flex justify-between items-center h-16'>
-            {/* <img className='bg-slate-600' alt='' src='https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png'/> */}
             <div className='flex ml-28 items-center'>
-                <h1>bookmyshow</h1>
+                <img className='' alt='' src='https://in.bmscdn.com/webin/common/icons/logo.svg'/>
                 <input style={{width: '35rem'}} className='ml-6 rounded px-10 h-9' type='text' placeholder='Search for Movies, Events, Plays, Sports and Activities' />
-                <SearchIcon style={{marginTop: '.3rem'}} className='text-gray-500 absolute ml-32 ' />
+                <SearchIcon style={{marginTop: '.3rem'}} className='text-gray-500 absolute ml-36 ' />
             </div>
             <div className='flex mr-28 items-center'>
                 <h1>Bangalore</h1>

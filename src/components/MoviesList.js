@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import GradeIcon from '@mui/icons-material/Grade';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import AdContainer from './AdContainer';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const MoviesList = () => {

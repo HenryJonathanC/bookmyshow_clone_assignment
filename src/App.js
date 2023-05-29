@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AdContainer from './components/AdContainer';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Movie from './components/Movie';

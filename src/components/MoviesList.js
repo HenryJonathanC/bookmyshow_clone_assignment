@@ -11,7 +11,7 @@ const MoviesList = () => {
     const navigate = useNavigate()
 
     const fetchData = async () =>{
-       await axios.get('http://localhost:3001/movies')
+       await axios.get('https://my-json-server.typicode.com/HenryJonathanC/bookMyShow_dummyData/movies')
         .then(res=>setMovieData(res.data))
         .catch(err => console.error(err))
     }

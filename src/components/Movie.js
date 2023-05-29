@@ -12,7 +12,7 @@ const Movie = () => {
     const [movie, setMovie]=useState()
 
     const fetchMovie = async()=>{
-       await axios.get(`http://localhost:3001/movies/${id.id}`)
+       await axios.get(`https://my-json-server.typicode.com/HenryJonathanC/bookMyShow_dummyData/movies/${id.id}`)
         .then(res=>setMovie(res.data))
         .catch(err=>console.log(err))
     }

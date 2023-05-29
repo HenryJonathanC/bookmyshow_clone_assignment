@@ -2,13 +2,16 @@ import React from 'react'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <>
         <div className='bg-slate-700 flex justify-between items-center h-16'>
             <div className='flex ml-28 items-center'>
-                <img className='' alt='' src='https://in.bmscdn.com/webin/common/icons/logo.svg'/>
+                <Link to='/'>
+                    <img className='' alt='' src='https://in.bmscdn.com/webin/common/icons/logo.svg'/>
+                </Link>
                 <input style={{width: '35rem'}} className='ml-6 rounded px-10 h-9' type='text' placeholder='Search for Movies, Events, Plays, Sports and Activities' />
                 <SearchIcon style={{marginTop: '.3rem'}} className='text-gray-500 absolute ml-36 ' />
             </div>

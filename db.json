@@ -1,0 +1,44 @@
+{
+    "movies" : [
+        {
+            "id" :1,
+            "title" : "Fast X",
+            "imgUrl" : "https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+            "category" : ["Action, ", "Adventure, ", "Crime, ", "Thriller"],
+            "rating" : 8.8,
+            "votes" : "49.9K"
+        },
+        {
+            "id" :2,
+            "title" : "Guardians of the Galaxy Vol. 3",
+            "imgUrl" : "https://image.tmdb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+            "category" : ["Action, ", "Adventure, ", "Commedy, ","Sci-Fi"],
+            "rating" : 8.9,
+            "votes" : "46.7K"
+        },
+        {
+            "id" :3,
+            "title" : "Spider-Man: Across The Spider-Verse",
+            "imgUrl" : "https://cdnb.artstation.com/p/assets/images/images/048/509/001/large/hazza-jarrar-mm.jpg?1650236822",
+            "category" : ["Action, ","Adventure, ", "Animation"],
+            "rating" : 92.1,
+            "votes" : "67.8K"
+        },
+        {
+            "id" :4,
+            "title" : "The Little Mermaid",
+            "imgUrl" : "https://m.media-amazon.com/images/M/MV5BYTUxYjczMWUtYzlkZC00NTcwLWE3ODQtN2I2YTIxOTU0ZTljXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+            "category" : ["Adventure, ", "Family, ", "Fantasy"],
+            "rating" : 8.9,
+            "votes" : "46.7K"
+        },
+        {
+            "id" :5,
+            "title" : "2018",
+            "imgUrl" : "https://m.media-amazon.com/images/M/MV5BZWFhZjBjY2ItMmZmMC00N2RjLTg2ZjktNDUwNmYwNmVjMDA5XkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_FMjpg_UX1000_.jpg",
+            "category" : ["Drama, ", "Thriller"],
+            "rating" : 9.3,
+            "votes" : "37.5K"
+        }
+    ]
+}
